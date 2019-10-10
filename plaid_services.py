@@ -1,6 +1,6 @@
 import os
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 import math
 import datetime
 from plaid import Client as PlaidClient

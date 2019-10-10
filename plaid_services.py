@@ -51,7 +51,8 @@ def get_some_transactions(access_token, start_date, end_date):
 
 # get five days ago so we don't deal with pending costs
 def get_five_days_ago_transactions():
-    five_days_ago = (datetime.date.today() - datetime.timedelta(days=5)).strftime('%Y-%m-%d')
+    five_days_ago = (datetime.date.today() - datetime.timedelta(days=3)).strftime('%Y-%m-%d')
+    #five_days_ago = (datetime.date.today() - datetime.timedelta(days=5)).strftime('%Y-%m-%d')
     print(five_days_ago)
     transactions = []
 

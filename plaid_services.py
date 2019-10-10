@@ -21,8 +21,8 @@ plaid_client = PlaidClient(client_id=PLAID_CLIENT_ID,
 
 # https://plaid.com/docs/api/#transactions
 MAX_TRANSACTIONS_PER_PAGE = 500
-OMIT_CATEGORIES = ["Transfer", "Credit Card", "Deposit"]
-#OMIT_CATEGORIES = ["Transfer", "Credit Card", "Deposit", "Payment"]
+#OMIT_CATEGORIES = ["Transfer", "Credit Card", "Deposit"]
+OMIT_CATEGORIES = ["Transfer", "Credit Card", "Deposit", "Payment"]
 OMIT_ACCOUNT_SUBTYPES = ['cd', 'savings']
 
 def get_some_transactions(access_token, start_date, end_date):

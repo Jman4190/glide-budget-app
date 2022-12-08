@@ -8,7 +8,7 @@ requests==2.20.0
 wsgiref==0.1.2 ; python_version < '3.2'
 plaid-python>=3.0.0
 cachetools==3.1.1
-certifi==2019.9.11
+certifi==2022.12.7
 chardet==3.0.4
 google-api-python-client==1.7.11
 google-auth==1.6.3
